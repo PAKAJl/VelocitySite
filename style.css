@@ -95,3 +95,51 @@ header{
     margin: auto 0;
 }
 
+.cart__title-text{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.cart__title-p{
+    color: #8E8E9C;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 62px;
+}
+
+.cart__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__item{
+    border: 1px #DCEBF7 solid;
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__item-img{
+    width: 94px;
+    height: 94px;
+    margin: auto;
+    margin-top: 36px;
+}
+
+.cart__item--title{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 19px;
+}
+
+.cart__item--desc{
+    color: #6A859C;
+    line-height: 25pt;
+    text-align: center;
+}
